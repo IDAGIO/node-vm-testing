@@ -1,0 +1,21 @@
+{
+  "name": "node-vm-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Vlad Goran",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "sinon": "^7.2.2"
+  }
+}
